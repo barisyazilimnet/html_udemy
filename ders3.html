@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <form action="#" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <label>First name :</label><br>
+        <input type="text" name="fistname" required><br>
+        <label>Password :</label><br>
+        <input type="password" name="password" required><br>
+        <label>Cinsiyet :</label><br>
+        <select name="gender">
+            <option>Erkek</option>
+            <option>Erkek</option>
+        </select>
+        <br>
+        <label>En sevdiğiniz araba :</label>
+        <select name="car" size="5" multiple>
+            <option>Audi</option>
+            <option>BMW</option>
+            <option>Mercedes</option>
+            <option>Volvo</option>
+            <option>Range Rover</option>
+        </select>
+        <br>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="İnternet Exploler"></option>
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+        </datalist>
+        <br>
+        0
+        <input type="range" id="a" name="a" value="50">
+        100+
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <input type="submit">
+        </form>
+    </body>
+</html>
